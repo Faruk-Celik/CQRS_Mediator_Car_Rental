@@ -1,0 +1,53 @@
+﻿@model CQRS_Mediator_Car_Rental.CQRS.Results.GetForCarByIdQueryResult
+@{
+    ViewData ["Title"] = "UpdateCar";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<form method="post">
+    <div class="container">
+        <br />
+        @Html.HiddenFor(x => x.ForRentCarID)
+        <div class="alert alert-success"><h2>Edit Car</h2></div>
+        <label>Brand</label>
+        <input type="text" asp-for="CarBrand" class="form-control" />
+        <br />
+        <label>Model</label>
+        <input type="text" asp-for="CarModel" class="form-control" />
+        <br />
+        <label>Km</label>
+        <input type="text" asp-for="CarKM" class="form-control" />
+        <br />
+        <label>Engine Power</label>
+        <input type="text" asp-for="CarEnginePower" class="form-control" />
+        <br />
+        <label>Type</label>
+        <input type="text" asp-for="CarType" class="form-control" />
+        <br />
+        <label>Gear Type</label>
+        <input type="text" asp-for="CarGearType" class="form-control" />
+        <br />
+        <label>Seat</label>
+        <input type="text" asp-for="CarTotalPerson" class="form-control" />
+        <br />
+        <label>Fuel Type</label>
+        <input type="text" asp-for="CarFuelType" class="form-control" />
+        <br />
+        <label>Color</label>
+        <input type="text" asp-for="CarColor" class="form-control" />
+        <br />
+        <label>Min Driver Age</label>
+        <input type="text" asp-for="CarRenterPersonMinAge" class="form-control" />
+        <br />
+        <label>Car Image Url</label>
+        <input type="text" asp-for="ImageUrl" class="form-control" />
+        <br />
+        <label>Daily Price</label>
+        <input type="text" asp-for="CarDayPrice" class="form-control" />
+        <br />
+
+        <button class="btn btn-warning">Save</button>
+    </div>
+</form>
+

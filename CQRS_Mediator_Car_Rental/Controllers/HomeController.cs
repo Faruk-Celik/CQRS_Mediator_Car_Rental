@@ -12,7 +12,7 @@ namespace CQRS_Mediator_Car_Rental.Controllers
         {
             _logger = logger;
         }
-
+          
         public IActionResult Index ()
         {
             return View();

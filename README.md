@@ -1,7 +1,7 @@
 # CQRS_Mediator_Car_Rental
 
 <h3>This project focuses on car rentals. Users can list and select vehicles based on specific locations, such as selecting a pickup and drop-off point, and view available cars for specific date ranges. Additionally, users can browse all available vehicles in a general cars section.</h3>
-<h1> Used Technologies </h1>
+<h1> Used Technologies </h1> 
 <ul>
   <li> CQRS Desing Pattern</li>
   <li>Mediator desing Pattern </li>
